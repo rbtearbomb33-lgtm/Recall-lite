@@ -8,6 +8,7 @@ import type { Theme } from "@/types";
 const LANGUAGES: { code: string; label: string; nativeLabel: string }[] = [
   { code: "en", label: "English", nativeLabel: "English" },
   { code: "id", label: "Indonesian", nativeLabel: "Bahasa Indonesia" },
+  { code: "zh-CN", label: "Simplified Chinese", nativeLabel: "简体中文" },
 ];
 
 export function AppearanceSection(): JSX.Element {
